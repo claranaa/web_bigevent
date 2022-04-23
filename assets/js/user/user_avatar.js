@@ -54,7 +54,7 @@ $(function () {
       data: {
         avatar: dataURL
       },
-      sueecss: function (res) {
+      success: function (res) {
         if (res.status !== 0) {
           return layer.msg("更换头像失败！")
         }
